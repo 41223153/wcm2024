@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w2</title><link href="./" rel="alternate"></link><link href="./feeds/w2.atom.xml" rel="self"></link><id>./</id><updated>2024-06-18T16:52:10+08:00</updated><entry><title>wcm2024 課程W2</title><link href="./2024-wcm2024-w2-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-06-18T16:52:10+08:00</updated><author><name>wei</name></author><id>tag:None,2024-02-29:./2024-wcm2024-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;在Github倉儲除了利用Replit來維護網站，還可以導入Github Codespaces來維護個人與分組網站.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w2</title><link href="./" rel="alternate"></link><link href="./feeds/w2.atom.xml" rel="self"></link><id>./</id><updated>2024-06-18T17:00:19+08:00</updated><entry><title>wcm2024 課程W2</title><link href="./2024-wcm2024-w2-blog-tutorial.html" rel="alternate"></link><published>2024-02-29T11:00:00+08:00</published><updated>2024-06-18T17:00:19+08:00</updated><author><name>wei</name></author><id>tag:None,2024-02-29:./2024-wcm2024-w2-blog-tutorial.html</id><summary type="html">&lt;p&gt;在Github倉儲除了利用Replit來維護網站，還可以導入Github Codespaces來維護個人與分組網站.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;在Github倉儲除了利用Replit來維護網站，還可以導入Github Codespaces來維護個人與分組網站.&lt;/p&gt;
 
 
@@ -11,6 +11,6 @@ python3 main.py
 便可以開始編輯網頁
 網頁預設密碼:admin&lt;/p&gt;
 &lt;h1&gt;常用Git指令&lt;/h1&gt;
-&lt;p&gt;可參考&amp;lt;https://41223153.github.io/wcm2024/content/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html&lt;/p&gt;
+&lt;p&gt;可參考&lt;a href="https://41223153.github.io/wcm2024/content/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html"&gt;https://41223153.github.io/wcm2024/content/git%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4.html&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;利用 Github Classroom 分組&lt;/h1&gt;
 &lt;p&gt;四技期中分組作業名稱為 1a, 各組組長在取得作業連結之後, 自行建立各組 Team, 以第一組為例, Team 名稱為 ag1, 之後以每組至多 6 名組員, 透過作業連結加入 ag1 Team, 其餘各組組員則依序建立 ag2, ag3 等 Team 名稱, 讓該組組員可以加入.&lt;/p&gt;</content><category term="w2"></category><category term="網誌編寫"></category></entry></feed>
