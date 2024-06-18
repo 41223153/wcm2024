@@ -1,33 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-18T18:14:33+08:00</updated><entry><title>wcm2024 課程W6</title><link href="./2024-wcm2024-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-06-18T18:14:33+08:00</updated><author><name>wei</name></author><id>tag:None,2024-03-28:./2024-wcm2024-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;何透過與Chat GPT對話了解有關git的應用方法 &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-06-18T18:20:30+08:00</updated><entry><title>wcm2024 課程W8</title><link href="./2024-wcm2024-w8-blog-tutorial.html" rel="alternate"></link><published>2024-04-11T11:00:00+08:00</published><updated>2024-06-18T18:20:30+08:00</updated><author><name>wei</name></author><id>tag:None,2024-04-11:./2024-wcm2024-w8-blog-tutorial.html</id><summary type="html">&lt;p&gt;從教育的本質看網際內容管理課程的內容要點。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;從教育的本質看網際內容管理課程的內容要點。&lt;/p&gt;
+
+
+&lt;h1&gt;與Chat GPT對話結果&lt;/h1&gt;
+&lt;p&gt;詢問ChatGPT，教育的本質為何?&lt;/p&gt;
+&lt;p&gt;教育的本質是一個複雜而多維度的概念，涉及知識傳遞、能力培養、人格塑造和社會化過程。 它不僅是對知識和技能的傳授，更重要的是培養人的綜合素質，包括價值觀、道德觀、美學、思考能力和創新能力。 以下是教育本質的一些關鍵面向：&lt;/p&gt;
+&lt;p&gt;知識傳遞:教育最基本的功能是傳遞現有的知識與文化，讓學生掌握科學、文學、歷史等各領域的基礎知識。 這是培養學生理解世界、解決問題的基礎。&lt;/p&gt;
+&lt;p&gt;能力培養:教育不僅傳授知識，還要培養學生的各種能力，包括批判性思考、創造力、解決問題的能力、溝通技巧和團隊合作能力。 這些能力使學生能夠應對複雜多變的世界。&lt;/p&gt;
+&lt;p&gt;人格塑造:教育過程中的品德教育與心理教育是不可或缺的。 教育應致力於培養學生的道德感、責任感、正直、同情心和社會責任感。&lt;/p&gt;
+&lt;p&gt;社會化過程:教育幫助個體理解社會規範和文化價值觀，培養其社會適應能力和社會角色的認知。 透過教育，學生學會如何與他人合作、交流，並在社會中找到自己的位置。&lt;/p&gt;
+&lt;p&gt;終身學習:現代教育強調終身學習的概念，培養學生自主學習的能力和習慣，使他們在未來的生活中能不斷更新知識和技能，並適應社會的變化。&lt;/p&gt;
+&lt;p&gt;個性發展:教育應尊重每位學生的個性和天賦，鼓勵他們探索自己的興趣和潛能，實現自我價值。&lt;/p&gt;
+&lt;p&gt;文化傳承與創新:教育不僅是傳承文化的重要途徑，同時也是文化創新的泉源。 透過教育，學生能夠在了解和繼承文化的基礎上，進行創新和突破。&lt;/p&gt;
+&lt;p&gt;綜上所述，教育的本質不僅是傳授知識和技能，更重要的是全面培養人的綜合素質，使其成為有知識、有能力、有道德、有責任感的社會成員。 教育應注重個體的全面發展，為其終身學習和持續發展奠定堅實基礎。&lt;/p&gt;</content><category term="w8"></category><category term="網誌編寫"></category></entry><entry><title>wcm2024 課程W6</title><link href="./2024-wcm2024-w6-blog-tutorial.html" rel="alternate"></link><published>2024-03-28T11:00:00+08:00</published><updated>2024-06-18T18:19:59+08:00</updated><author><name>wei</name></author><id>tag:None,2024-03-28:./2024-wcm2024-w6-blog-tutorial.html</id><summary type="html">&lt;p&gt;何透過與Chat GPT對話了解有關git的應用方法 &lt;/p&gt;
 </summary><content type="html">&lt;p&gt;何透過與Chat GPT對話了解有關git的應用方法 &lt;/p&gt;
 
 
 &lt;h1&gt;Git的發展歷史&lt;/h1&gt;
-&lt;p&gt;創作人:&lt;/p&gt;
-&lt;p&gt;Linus Torvalds（林納斯·托瓦茲）是一位電腦科學家和軟體工程師，出生於芬蘭的赫爾辛基，於1969年12月28日出生。
+&lt;p&gt;創作人:
+Linus Torvalds（林納斯·托瓦茲）是一位電腦科學家和軟體工程師，出生於芬蘭的赫爾辛基，於1969年12月28日出生。
 他最著名的貢獻是創建了Linux內核，並成為了Linux開源作業系統的主要開發者之一。
 Linus Torvalds於1991年開始編寫Linux內核，當時他還是大學生，Linux最初是作為他的個人專案開始的。
 Linus Torvalds同時也是開源運動的積極支持者和倡導者，他認為開源軟體開發模式能夠促進創新、共享知識，並有助於建構更穩健、更安全的軟體。
 他在2005年為了管理Linux核心專案而創立了Git。 Git的設計受到了分散式版本控制系統BitKeeper的啟發。
 Linus Torvalds以其在作業系統和開源軟體領域的貢獻而聞名於世，他的工作對於推動電腦技術的發展和普及發揮了重要作用。
 因其對開源軟件的貢獻和領導地位而成為了科技界的重要人物之一。&lt;/p&gt;
-&lt;p&gt;歷史:&lt;/p&gt;
-&lt;p&gt;Linus Torvalds於1991年開始編寫Linux內核，當時他還是芬蘭赫爾辛基大學的學生。
+&lt;p&gt;歷史:
+Linus Torvalds於1991年開始編寫Linux內核，當時他還是芬蘭赫爾辛基大學的學生。
 git問世於西元2005因Linus Torvalds為了管理自己創建的Linux核心專案，而創建了Git版本控制系統，他認為現有的版本控制系統不符合他的需求，因此決定寫一個新的系統。&lt;/p&gt;
-&lt;p&gt;發展:&lt;/p&gt;
-&lt;p&gt;GitHub是一個基於Git的程式碼託管平台，於2008年成立。 GitHub的出現大大推動了Git的普及和發展，成為了全球最大的程式碼託管平台之一。
+&lt;p&gt;發展:
+GitHub是一個基於Git的程式碼託管平台，於2008年成立。 GitHub的出現大大推動了Git的普及和發展，成為了全球最大的程式碼託管平台之一。
 隨著時間的推移，Git的社群不斷壯大，包括了各種貢獻者、開發者和使用者。
 這個龐大的社區為Git的發展和改進做出了巨大貢獻，Git不僅在開源社群中廣泛應用。
 也在企業中得到了採用，許多大型公司和組織都在使用Git作為其主要的版本控制系統。&lt;/p&gt;
-&lt;p&gt;優點:&lt;/p&gt;
-&lt;p&gt;易於學習和使用：儘管Git具有強大的功能，但它的命令和操作也相對簡單直觀。
+&lt;p&gt;優點:
+易於學習和使用：儘管Git具有強大的功能，但它的命令和操作也相對簡單直觀。
 版本追蹤與歷史記錄：Git能夠精確追蹤文件的每一次修改，並保留完整的歷史記錄。
 可以輕鬆地查看文件的修改記錄、回滾到之前的版本等。
 強大的分支管理：Git的分支管理功能非常強大，開發者可以輕鬆建立、合併和刪除分支，
 使得開發團隊可以更靈活地進行。&lt;/p&gt;
-&lt;p&gt;開源：&lt;/p&gt;
-&lt;p&gt;Git是一個開源項目，開發者可以自由地查看、修改和分享Git的原始碼，同時也可得到來自社群的技術支援和貢獻。
+&lt;p&gt;開源：
+Git是一個開源項目，開發者可以自由地查看、修改和分享Git的原始碼，同時也可得到來自社群的技術支援和貢獻。
 速度和效能：Git被設計成高效快速的版本控制系統，能夠處理大型專案和大量數據，且具有優秀的效能表現。&lt;/p&gt;
 &lt;h1&gt;Git的其他運用&lt;/h1&gt;
 &lt;p&gt;&lt;a href="https://41223153.github.io/wcm2024/content/git%E7%9A%84%E9%81%8B%E7%94%A8.html"&gt;https://41223153.github.io/wcm2024/content/git%E7%9A%84%E9%81%8B%E7%94%A8.html&lt;/a&gt;&lt;/p&gt;</content><category term="w6"></category><category term="網誌編寫"></category></entry><entry><title>wcm2024 課程W5</title><link href="./2024-wcm2024-w5-blog-tutorial.html" rel="alternate"></link><published>2024-03-21T11:00:00+08:00</published><updated>2024-06-18T18:06:46+08:00</updated><author><name>wei</name></author><id>tag:None,2024-03-21:./2024-wcm2024-w5-blog-tutorial.html</id><summary type="html">&lt;p&gt;以影片方式摘要前四周課程內容&lt;/p&gt;
