@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統 - w11</title><link href="./" rel="alternate"></link><link href="./feeds/w11.atom.xml" rel="self"></link><id>./</id><updated>2024-06-18T18:54:03+08:00</updated><entry><title>wcm2024 課程W11</title><link href="./2024-wcm2024-w11-blog-tutorial.html" rel="alternate"></link><published>2024-05-02T11:00:00+08:00</published><updated>2024-06-18T18:54:03+08:00</updated><author><name>wei</name></author><id>tag:None,2024-05-02:./2024-wcm2024-w11-blog-tutorial.html</id><summary type="html">&lt;p&gt;說明如何在網頁中加入Brython程式應用。 &lt;/p&gt;
+</summary><content type="html">&lt;p&gt;說明如何在網頁中加入Brython程式應用。 &lt;/p&gt;
+
+
+&lt;h1&gt;從教務主機直接擷取課表資料&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://41223153.github.io/wcm2024/content/W11.html"&gt;https://41223153.github.io/wcm2024/content/W11.html&lt;/a&gt;&lt;/p&gt;</content><category term="w11"></category><category term="網誌編寫"></category></entry></feed>
