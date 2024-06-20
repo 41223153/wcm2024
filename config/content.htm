@@ -133,7 +133,136 @@ git config --global user.email "your.email@example.com"
 <p><strong>AI工具:</strong></p>
 <p>目前常用的AI程式為OpenAI所推出的<a href="https://chatgpt.com/">ChatGPT</a>，能幫助我處理在維護程式和推送更新時，所遇到的錯誤和瓶頸丟給它詢問解決的方案，在它的回答中尋找可用的資訊，來解決遇到的問題。</p>
 <h1>期末專案</h1>
-<h1>cmsimde</h1>
+<p>先開啟cms</p>
+<p>然後透過下面指令安裝pygame庫</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">pip install pygame
+</pre>
+<p>在Y槽建立一個snake_game的資料夾</p>
+<p>在資料夾中存入名為snake_game.py程式檔</p>
+<p>檔案內容如下:</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">import pygame
+import time
+import random
+
+pygame.init()
+
+white = (255, 255, 255)
+yellow = (255, 255, 102)
+black = (0, 0, 0)
+red = (213, 50, 80)
+green = (0, 255, 0)
+blue = (50, 153, 213)
+
+dis_width = 600
+dis_height = 400
+
+dis = pygame.display.set_mode((dis_width, dis_height))
+pygame.display.set_caption('Snake Game')
+
+clock = pygame.time.Clock()
+snake_block = 10
+snake_speed = 15
+
+font_style = pygame.font.SysFont("bahnschrift", 25)
+score_font = pygame.font.SysFont("comicsansms", 35)
+
+def our_snake(snake_block, snake_list):
+    for x in snake_list:
+        pygame.draw.rect(dis, black, [x[0], x[1], snake_block, snake_block])
+
+def message(msg, color):
+    mesg = font_style.render(msg, True, color)
+    dis.blit(mesg, [dis_width / 6, dis_height / 3])
+
+def gameLoop():
+    game_over = False
+    game_close = False
+
+    x1 = dis_width / 2
+    y1 = dis_height / 2
+
+    x1_change = 0
+    y1_change = 0
+
+    snake_list = []
+    length_of_snake = 1
+
+    foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
+    foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+
+    while not game_over:
+
+        while game_close:
+            dis.fill(blue)
+            message("You Lost! Press Q-Quit or C-Play Again", red)
+            pygame.display.update()
+
+            for event in pygame.event.get():
+                if event.type == pygame.KEYDOWN:
+                    if event.key == pygame.K_q:
+                        game_over = True
+                        game_close = False
+                    if event.key == pygame.K_c:
+                        gameLoop()
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                game_over = True
+            if event.type == pygame.KEYDOWN:
+                if event.key == pygame.K_LEFT:
+                    x1_change = -snake_block
+                    y1_change = 0
+                elif event.key == pygame.K_RIGHT:
+                    x1_change = snake_block
+                    y1_change = 0
+                elif event.key == pygame.K_UP:
+                    y1_change = -snake_block
+                    x1_change = 0
+                elif event.key == pygame.K_DOWN:
+                    y1_change = snake_block
+                    x1_change = 0
+
+        if x1 &gt;= dis_width or x1 &lt; 0 or y1 &gt;= dis_height or y1 &lt; 0:
+            game_close = True
+        x1 += x1_change
+        y1 += y1_change
+        dis.fill(blue)
+        pygame.draw.rect(dis, green, [foodx, foody, snake_block, snake_block])
+        snake_head = []
+        snake_head.append(x1)
+        snake_head.append(y1)
+        snake_list.append(snake_head)
+        if len(snake_list) &gt; length_of_snake:
+            del snake_list[0]
+
+        for x in snake_list[:-1]:
+            if x == snake_head:
+                game_close = True
+
+        our_snake(snake_block, snake_list)
+
+        pygame.display.update()
+
+        if x1 == foodx and y1 == foody:
+            foodx = round(random.randrange(0, dis_width - snake_block) / 10.0) * 10.0
+            foody = round(random.randrange(0, dis_height - snake_block) / 10.0) * 10.0
+            length_of_snake += 1
+
+        clock.tick(snake_speed)
+
+    pygame.quit()
+    quit()
+
+gameLoop()
+</pre>
+<p></p>
+<p>以上都完成後再回到cms輸入</p>
+<pre class="brush:cpp;auto-links:false;toolbar:false" contenteditable="false">python snake_game.py
+</pre>
+<p></p>
+<p>執行這個檔案即可開始遊玩。</p>
+<h2>心得</h2>
+<p>雖然遊戲做的沒有很完整，但是透過一直詢問chatGPT，還是將整個遊戲的雛型做了出來，目前除了不能重新開始以外，其他的方向控制、計分、蛇的顯示、果實都可以正常運作。第一次製作並不是很上手，一開始碰壁了很多次，其中ChatGPT還被限制詢問，透過將每天的次數用盡，最後還是將遊戲雛型做了出來。</p><h1>cmsimde</h1>
 <p><span style="background-color: #ccffcc;">SMap</span> - SiteMap - 依照階次列出網站的所有頁面.</p>
 <p><span style="background-color: #ccffcc;">EditA</span> - Edit All page - 將所有頁面放入編輯模式中, 主要用來處理頁面搬遷, 刪除或決定衝突頁面內容版本.</p>
 <p><span style="background-color: #ccffcc;">Edit</span> - Edit page - 先選擇要編輯的單一頁面後, 再點選 Edit, 即可進入單一頁面的編輯模式.</p>
